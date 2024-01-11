@@ -4,10 +4,11 @@ import { RouterModule } from '@angular/router';
 
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { SearchBoxComponent } from './components/search-box/search-box.component';
+import { LoadingSpinnerComponent } from './components/loading-spinner/loading-spinner.component';
 
 @NgModule({
-  declarations: [SidebarComponent, SearchBoxComponent],
+  declarations: [SidebarComponent, SearchBoxComponent, LoadingSpinnerComponent],
   imports: [CommonModule, RouterModule],
-  exports: [SidebarComponent, SearchBoxComponent],
+  exports: [SidebarComponent, SearchBoxComponent, LoadingSpinnerComponent],
 })
 export class SharedModule {}
