@@ -1,10 +1,10 @@
-<h2 class="mt-3">By Capital</h2>
+<h2 class="mt-3">Capitals</h2>
 <hr>
 
 <div class="row">
   <div class="col">
     <shared-search-box (onDebounce)="searchByCapital($event)" placeholder="Search By capital"
-      (onValue)="searchByCapital($event)"></shared-search-box>
+      (onValue)="searchByCapital($event)" [initialValue]="initialValue"></shared-search-box>
   </div>
 </div>
 
